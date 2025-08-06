@@ -1,0 +1,6 @@
+@get_sales_result_HostAddress = http://localhost:5237
+
+GET {{get_sales_result_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
